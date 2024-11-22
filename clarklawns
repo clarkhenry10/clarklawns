@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Henry Clark's Lawn Mowing Business in Mount Pleasant, SC. Quality lawn care services.">
+    <title>Henry Clark's Lawn Mowing Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Henry Clark's Lawn Mowing Service</h1>
+            <p>Your trusted lawn care professional in Mount Pleasant, SC</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Henry Clark's Lawn Mowing Service</h2>
+            <p>Welcome to Henry Clark's Lawn Mowing Service, the premier provider of lawn care in Mount Pleasant, SC. We specialize in delivering high-quality lawn maintenance services for both residential and commercial clients. With over 15 years of experience, we guarantee a beautiful, healthy lawn every time.</p>
+            <p>Whether it's routine mowing, edging, or seasonal clean-ups, we have the tools and expertise to handle any lawn care needs. Our mission is to provide reliable, friendly, and affordable lawn services to the residents and businesses of Mount Pleasant.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Lawn Mowing</h3>
+                <p>We offer professional lawn mowing for all types of lawns, ensuring even cuts and a tidy appearance.</p>
+            </div>
+            <div class="service">
+                <h3>Edging & Trimming</h3>
+                <p>We provide precise edging along sidewalks, driveways, and flower beds to give your lawn a clean, defined look.</p>
+            </div>
+            <div class="service">
+                <h3>Fertilization & Weed Control</h3>
+                <p>Our team applies the right fertilizer and weed control treatments to keep your lawn lush and free of unwanted growth.</p>
+            </div>
+            <div class="service">
+                <h3>Spring & Fall Clean-Up</h3>
+                <p>We offer seasonal clean-up services to remove leaves, debris, and prepare your lawn for the next growing season.</p>
+            </div>
+            <div class="service">
+                <h3>Tree & Shrub Care</h3>
+                <p>We provide tree trimming and shrub care to help maintain the health and appearance of your yard.</p>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                <p>"Henry Clark's Lawn Mowing Service is fantastic! They always do a great job and my lawn looks beautiful every time." – Sarah T.</p>
+            </blockquote>
+            <blockquote>
+                <p>"Reliable, professional, and affordable. I highly recommend Henry for all your lawn care needs." – Mark D.</p>
+            </blockquote>
+            <blockquote>
+                <p>"Henry has been taking care of my lawn for years. His attention to detail is unmatched!" – Julie P.</p>
+            </blockquote>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to get your lawn looking great? Contact us today for a free estimate or to schedule your next lawn care appointment!</p>
+            <address>
+                <p>Email: <a href="mailto:henryclarklawncare@gmail.com">henryclarklawncare@gmail.com</a></p>
+                <p>Phone: <a href="tel:+18437523684">(843) 752-3684</a></p>
+                <p>Location: Mount Pleasant, SC</p>
+            </address>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Henry Clark's Lawn Mowing Service. All rights reserved.</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://facebook.com/henryclarklawncare">Facebook</a></li>
+                <li><a href="https://twitter.com/henryclarklawncare">Twitter</a></li>
+                <li><a href="https://instagram.com/henryclarklawncare">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
